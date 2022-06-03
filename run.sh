@@ -1,1 +1,0 @@
-FLASK_APP=drought/app.py flask run

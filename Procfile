@@ -1,1 +1,1 @@
-web: gunicorn droughtus.app:app
+web: gunicorn drought.app:app

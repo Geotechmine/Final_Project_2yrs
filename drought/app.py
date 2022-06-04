@@ -8,7 +8,7 @@ import gzip, pickle, pickletools
 
 app = Flask(__name__)
 
-with gzip.open("drought/RF_classifier.pkl", 'rb') as f:
+with gzip.open("drought/RF_classifier.pkl.gz", 'rb') as f:
     p = pickle.Unpickler(f)
     model = p.load()
 
